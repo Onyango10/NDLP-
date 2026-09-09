@@ -1,0 +1,348 @@
+{
+	"info": {
+		"_postman_id": "80503e97-14ba-482e-a604-f097c1e45214",
+		"name": "NDLP Account Queries API Test Suite",
+		"description": "Comprehensive automated test collection for all 19 tickets of the NDLP Account Queries API.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:44300",
+			"type": "string"
+		},
+		{
+			"key": "sampleAccountNumber",
+			"value": "01001234567",
+			"type": "string"
+		},
+		{
+			"key": "sampleCustomerId",
+			"value": "CUST-1001",
+			"type": "string"
+		},
+		{
+			"key": "createdQueryId",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "testRequestRef",
+			"value": "TEST-REQ-001",
+			"type": "string"
+		}
+	],
+	"item": [
+		{
+			"name": "1. Account Queries (Read Endpoints)",
+			"item": [
+				{
+					"name": "T1 - Get Account by Number (Success)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 200 OK', function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"pm.test('Response contains account details', function () {",
+									"    var json = pm.response.json();",
+									"    pm.expect(json).to.have.property('accountNumber');",
+									"    pm.expect(json).to.have.property('bookBalance');",
+									"    pm.expect(json).to.have.property('availableBalance');",
+									"    pm.expect(json).to.have.property('status');",
+									"});",
+									"pm.test('Response includes Security Headers (T12, T17)', function () {",
+									"    pm.response.to.have.header('X-Correlation-ID');",
+									"    pm.response.to.have.header('X-Content-Type-Options');",
+									"    pm.response.to.have.header('X-Frame-Options');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/accounts/{{sampleAccountNumber}}",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "accounts", "{{sampleAccountNumber}}"]
+						}
+					}
+				},
+				{
+					"name": "T1 - Get Account Not Found (Negative)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 404 Not Found', function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/accounts/INVALID-999999",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "accounts", "INVALID-999999"]
+						}
+					}
+				},
+				{
+					"name": "T2 - Get Accounts Filtered (Type & Status)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 200 OK', function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"pm.test('Returns an array', function () {",
+									"    var json = pm.response.json();",
+									"    pm.expect(Array.isArray(json)).to.be.true;",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/accounts?type=Savings&status=Active",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "accounts"],
+							"query": [
+								{"key": "type", "value": "Savings"},
+								{"key": "status", "value": "Active"}
+							]
+						}
+					}
+				},
+				{
+					"name": "T9 - Get Paginated Statement",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 200 OK', function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"pm.test('Contains pagination envelope', function () {",
+									"    var json = pm.response.json();",
+									"    pm.expect(json).to.have.property('pageNumber');",
+									"    pm.expect(json).to.have.property('pageSize');",
+									"    pm.expect(json).to.have.property('totalRecords');",
+									"    pm.expect(json).to.have.property('totalPages');",
+									"    pm.expect(json).to.have.property('items');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/accounts/{{sampleAccountNumber}}/statement?pageNumber=1&pageSize=10",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "accounts", "{{sampleAccountNumber}}", "statement"],
+							"query": [
+								{"key": "pageNumber", "value": "1"},
+								{"key": "pageSize", "value": "10"}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "2. Account Query Requests (Mutations)",
+			"item": [
+				{
+					"name": "T3 - Create Account Query Request",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 201 Created', function () {",
+									"    pm.response.to.have.status(201);",
+									"});",
+									"var json = pm.response.json();",
+									"if (json.id) {",
+									"    pm.collectionVariables.set('createdQueryId', json.id);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key": "Content-Type", "value": "application/json"}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accountNumber\": \"{{sampleAccountNumber}}\",\n    \"customerId\": \"{{sampleCustomerId}}\",\n    \"queryType\": \"BALANCE_INQUIRY\",\n    \"purpose\": \"Customer requested official balance statement at branch.\",\n    \"requestReference\": \"{{testRequestRef}}\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/account-queries",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "account-queries"]
+						}
+					}
+				},
+				{
+					"name": "T16 - Duplicate Request Protection (Negative)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 409 Conflict', function () {",
+									"    pm.response.to.have.status(409);",
+									"});",
+									"pm.test('Returns standard duplicate error code', function () {",
+									"    var json = pm.response.json();",
+									"    pm.expect(json.errorCode).to.eql('DUPLICATE_REQUEST');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key": "Content-Type", "value": "application/json"}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accountNumber\": \"{{sampleAccountNumber}}\",\n    \"customerId\": \"{{sampleCustomerId}}\",\n    \"queryType\": \"BALANCE_INQUIRY\",\n    \"purpose\": \"Duplicate attempt with same reference.\",\n    \"requestReference\": \"{{testRequestRef}}\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/account-queries",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "account-queries"]
+						}
+					}
+				},
+				{
+					"name": "T8 & T10 - Validation Failure (Negative)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 400 Bad Request', function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									"pm.test('Standard error envelope structure', function () {",
+									"    var json = pm.response.json();",
+									"    pm.expect(json).to.have.property('errorCode');",
+									"    pm.expect(json).to.have.property('message');",
+									"    pm.expect(json).to.have.property('timestamp');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key": "Content-Type", "value": "application/json"}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accountNumber\": \"\",\n    \"customerId\": \"\",\n    \"queryType\": \"\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/account-queries",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "account-queries"]
+						}
+					}
+				},
+				{
+					"name": "T6 - Update Account Query",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 200 OK', function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{"key": "Content-Type", "value": "application/json"}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\": \"COMPLETED\",\n    \"resolutionNotes\": \"Balance verified and certificate issued to customer.\",\n    \"purpose\": \"Updated branch notes.\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/account-queries/{{createdQueryId}}",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "account-queries", "{{createdQueryId}}"]
+						}
+					}
+				},
+				{
+					"name": "T7 - Update Account Status",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Status code is 200 OK', function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{"key": "Content-Type", "value": "application/json"}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\": \"FROZEN\",\n    \"reason\": \"Temporary freeze requested by AML compliance investigation.\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/accounts/{{sampleAccountNumber}}/status",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "accounts", "{{sampleAccountNumber}}", "status"]
+						}
+					}
+				}
+			]
+		}
+	]
+}

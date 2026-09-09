@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../NDLP Project.Tests/NDLP Project.Tests.csproj" Id="9018e545-613b-45d8-8f2f-d444b533d688" />
+  <Project Path="NDLP Project.csproj" Id="26c6e9fa-3779-46fe-ba9b-93a14a75c007" />
+</Solution>

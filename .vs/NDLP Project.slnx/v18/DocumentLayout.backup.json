@@ -1,0 +1,454 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|c:\\users\\benson.onyango\\igulab\\ndlp project\\account_queries_postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:account_queries_postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\api_documentation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:api_documentation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\controllers\\customeraccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:controllers\\customeraccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\models\\entities\\accounttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:models\\entities\\accounttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\models\\entities\\customeraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:models\\entities\\customeraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\controllers\\accountqueriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:controllers\\accountqueriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\services\\accountvalidationservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:services\\accountvalidationservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\data\\accountdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:data\\accountdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\dtos\\customeraccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:dtos\\customeraccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\dtos\\apierrorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:dtos\\apierrorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\handlers\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:handlers\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\handlers\\structuredlogginghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:handlers\\structuredlogginghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\areas\\helppage\\modeldescriptions\\imodeldocumentationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:areas\\helppage\\modeldescriptions\\imodeldocumentationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\models\\entities\\accountauditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:models\\entities\\accountauditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\dtos\\accountstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:dtos\\accountstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\dtos\\accountqueryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:dtos\\accountqueryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\dtos\\pagedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:dtos\\pagedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\dtos\\accounttransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:dtos\\accounttransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\dtos\\accountqueryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:dtos\\accountqueryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\dtos\\accountqueryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:dtos\\accountqueryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\models\\entities\\accountqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C6E9FA-3779-46FE-BA9B-93A14A75C007}|NDLP Project.csproj|solutionrelative:models\\entities\\accountqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Account_Queries_Postman_Collection.json",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Account_Queries_Postman_Collection.json",
+              "RelativeDocumentMoniker": "Account_Queries_Postman_Collection.json",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Account_Queries_Postman_Collection.json",
+              "RelativeToolTip": "Account_Queries_Postman_Collection.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-08T07:53:20.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerAccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Controllers\\CustomerAccountsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerAccountsController.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Controllers\\CustomerAccountsController.cs",
+              "RelativeToolTip": "Controllers\\CustomerAccountsController.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAowAsBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T12:24:22.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerAccount.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Models\\Entities\\CustomerAccount.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\CustomerAccount.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Models\\Entities\\CustomerAccount.cs",
+              "RelativeToolTip": "Models\\Entities\\CustomerAccount.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T06:43:08.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "API_DOCUMENTATION.md",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\API_DOCUMENTATION.md",
+              "RelativeDocumentMoniker": "API_DOCUMENTATION.md",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\API_DOCUMENTATION.md",
+              "RelativeToolTip": "API_DOCUMENTATION.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-08T07:07:16.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountQueriesController.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Controllers\\AccountQueriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountQueriesController.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Controllers\\AccountQueriesController.cs",
+              "RelativeToolTip": "Controllers\\AccountQueriesController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAYwKkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T13:17:27.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Models\\Entities\\AccountTransaction.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\AccountTransaction.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Models\\Entities\\AccountTransaction.cs",
+              "RelativeToolTip": "Models\\Entities\\AccountTransaction.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wDQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T09:42:19.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountValidationService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Services\\AccountValidationService.cs.cs",
+              "RelativeDocumentMoniker": "Services\\AccountValidationService.cs.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Services\\AccountValidationService.cs.cs",
+              "RelativeToolTip": "Services\\AccountValidationService.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T13:55:30.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Data\\AccountDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AccountDbContext.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Data\\AccountDbContext.cs",
+              "RelativeToolTip": "Data\\AccountDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T11:39:09.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerAccountDto.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\CustomerAccountDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerAccountDto.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\CustomerAccountDto.cs",
+              "RelativeToolTip": "DTOs\\CustomerAccountDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvx4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T12:12:15.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiErrorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\ApiErrorResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ApiErrorResponseDto.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\ApiErrorResponseDto.cs",
+              "RelativeToolTip": "DTOs\\ApiErrorResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T13:44:20.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Handlers\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Handlers\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "Handlers\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T08:59:45.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T18:33:20.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAiwAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T06:19:16.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StructuredLoggingHandler.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Handlers\\StructuredLoggingHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\StructuredLoggingHandler.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Handlers\\StructuredLoggingHandler.cs",
+              "RelativeToolTip": "Handlers\\StructuredLoggingHandler.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T18:20:18.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IModelDocumentationProvider.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Areas\\HelpPage\\ModelDescriptions\\IModelDocumentationProvider.cs",
+              "RelativeDocumentMoniker": "Areas\\HelpPage\\ModelDescriptions\\IModelDocumentationProvider.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Areas\\HelpPage\\ModelDescriptions\\IModelDocumentationProvider.cs",
+              "RelativeToolTip": "Areas\\HelpPage\\ModelDescriptions\\IModelDocumentationProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:06:26.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Services\\AuditService.cs",
+              "RelativeDocumentMoniker": "Services\\AuditService.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Services\\AuditService.cs",
+              "RelativeToolTip": "Services\\AuditService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T18:46:15.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountAuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Models\\Entities\\AccountAuditLog.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\AccountAuditLog.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Models\\Entities\\AccountAuditLog.cs",
+              "RelativeToolTip": "Models\\Entities\\AccountAuditLog.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T18:40:14.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T18:25:05.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-07T08:41:27.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T13:47:44.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountStatusUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountStatusUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AccountStatusUpdateDto.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountStatusUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\AccountStatusUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T13:36:50.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AccountQueryUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountQueryUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AccountQueryUpdateDto.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountQueryUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\AccountQueryUpdateDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T13:31:22.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PagedResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\PagedResultDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PagedResultDto.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\PagedResultDto.cs",
+              "RelativeToolTip": "DTOs\\PagedResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T12:56:04.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountTransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountTransactionDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AccountTransactionDto.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountTransactionDto.cs",
+              "RelativeToolTip": "DTOs\\AccountTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T12:20:12.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountQueryResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountQueryResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AccountQueryResponseDto.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountQueryResponseDto.cs",
+              "RelativeToolTip": "DTOs\\AccountQueryResponseDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T12:18:51.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountQueryRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountQueryRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AccountQueryRequestDto.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\DTOs\\AccountQueryRequestDto.cs",
+              "RelativeToolTip": "DTOs\\AccountQueryRequestDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T12:17:02.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AccountQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Models\\Entities\\AccountQueryRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\AccountQueryRequest.cs",
+              "ToolTip": "C:\\Users\\benson.onyango\\IgulaB\\NDLP Project\\Models\\Entities\\AccountQueryRequest.cs",
+              "RelativeToolTip": "Models\\Entities\\AccountQueryRequest.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T11:16:19.485Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
